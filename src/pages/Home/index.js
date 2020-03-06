@@ -34,8 +34,18 @@ export default function Home() {
               Marcello Carvalhal
             </a>
           </div>
+          <div className="section">
+            <h3>Este repositório</h3>
+            <a
+              href="https://github.com/marcelloc97/brasileirao-web"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Brasileirão Web
+            </a>
+          </div>
         </div>
-        <span>Copyright Marcello Carvalhal 2020</span>
+        <span>Copyright (c) 2020 Marcello Carvalhal</span>
       </footer>
     </>
   );
