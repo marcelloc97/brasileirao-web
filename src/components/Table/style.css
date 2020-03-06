@@ -1,0 +1,165 @@
+/* Table Base */
+table.points-table {
+  width: 800px;
+  margin: 0px 30px;
+  font-family: 'Oswald', Genova, 'Segoe UI', sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Every Table Row */
+table.points-table tr {
+  height: 42px;
+}
+
+/* Table Header */
+table.points-table th {
+  color: #666;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Table Elements */
+table.points-table td {
+  text-align: center;
+  font-weight: bold;
+  color: #09f;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Team Name */
+table.points-table td.left, th.left {
+  text-align: left;
+  padding: 5px;
+}
+
+/* Team Name weight normal */
+table.points-table td.left {
+  font-weight: normal;
+}
+
+
+/*
+  Second Table
+  SCORES (FLA 1 x 0 FLU)
+*/
+
+/* Second Table Base */
+table.scores-table {
+  width: 30%;
+  height: 100%;
+  margin: 0px 30px;
+  font-family: 'Oswald', Genova, 'Segoe UI', sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Second Table Rows */
+table.scores-table tr {
+  height: 42px;
+}
+
+/* Second Table Header */
+table.scores-table th {
+  color: #666;
+  border-bottom: 1px solid #ccc;
+  height: 41px;
+}
+
+/* Second Table Elements */
+table.scores-table td {
+  text-align: center;
+  font-weight: bold;
+  color: #09f;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Second Table Date and Location */
+table.scores-table td b {
+  margin-bottom: 10px;
+  font-size: 11px;
+  color: #999;
+  font-family: Roboto, sans-serif;
+}
+
+/* Second Table Date and Location dot */
+table.scores-table td b b {
+  font-size: 24px;
+  margin: 7px;
+}
+
+/* Second Table Element Height */
+table.scores-table td span {
+  margin-bottom: 20px;
+  color: #222;
+  font-weight: 100;
+  font-family: Roboto;
+}
+
+/* Second Table Score Number Home */
+table.scores-table td span b.score-number-left {
+  font-size: 20px;
+  margin: 10px;
+  margin-left: 65px;
+  color: #333;
+}
+
+/* Second Table Score Number Away */
+table.scores-table td span b.score-number-right {
+  font-size: 20px;
+  margin: 10px;
+  margin-right: 65px;
+  color: #333;
+}
+
+/* Tables Responsive Aspects */
+@media (max-width: 762px) {
+  table.points-table {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  table.scores-table {
+    width: 100%;
+    margin: 30px auto;
+  }
+
+  table.scores-table td span b.score-number-left {
+    margin-left: 30px;
+  }
+
+  table.scores-table td span b.score-number-right {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 862px) {
+  table.scores-table {
+    width: 40%;
+  }
+
+  table.scores-table td span b.score-number-left {
+    margin-left: 30px;
+  }
+
+  table.scores-table td span b.score-number-right {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 1302px) {
+  table.scores-table {
+    width: 60%;
+  }
+
+  table.scores-table td span b.score-number-left {
+    margin-left: 30px;
+  }
+
+  table.scores-table td span b.score-number-right {
+    margin-right: 30px;
+  }
+}

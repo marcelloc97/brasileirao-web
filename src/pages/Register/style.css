@@ -1,0 +1,39 @@
+main.register-form {
+  width: 50%;
+}
+
+main.register-form h1 {
+  text-align: center;
+  color: #09f;
+}
+
+main.register-form form {
+  margin-top: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main.register-form form div.input-block input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin: 5px 0px;
+}
+
+main.register-form form div.input-block-small {
+  
+}
+
+main.register-form form div.input-block-small input {
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin: 5px 0px;
+  width: 25%;
+}
+
+
+main.register-form form input, div.input-block input {
+  border-radius: 20px;
+}
